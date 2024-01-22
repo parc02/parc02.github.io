@@ -18,5 +18,8 @@
 ### 0.4.2
 - [x] site-description 
 
-###0.4.3
-- [ ] OG_TITLE
+### 0.4.3
+- [x] OG_TITLE
+
+### 0.4.4
+- [ ] OG_DESC

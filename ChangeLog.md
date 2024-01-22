@@ -7,4 +7,7 @@
 - [x] search-console
 
 ### 0.3.0
-- [ ] naver-searchadvisor
+- [x] naver-searchadvisor
+
+### 0.4.0
+- [ ] [SEO NAVER](https://github.com/parc02/parc02.github.io/issues/4) 

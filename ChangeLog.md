@@ -13,4 +13,7 @@
 - [x] [SEO NAVER](https://github.com/parc02/parc02.github.io/issues/4)
 
 ### 0.4.1
-- [ ] robots.txt add file 
+- [x] robots.txt add file
+
+### 0.4.2
+- [ ] site-description 

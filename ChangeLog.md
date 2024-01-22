@@ -22,4 +22,9 @@
 - [x] OG_TITLE
 
 ### 0.4.4
-- [ ] OG_DESC
+- [] OG_DESC
+
+### 0.4.5
+### 0.4.4
+- [x] OG_URL, PIC
+

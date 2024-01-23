@@ -5,6 +5,12 @@
 
 # 배포방법
 
+### STG dev( [par-02.web.app](https://par-02.web.app/))
+### STG prd([parc02.github.io](https://parc02.github.io/))
+
+
+
+
 # Future Imperfect Template
 [Future Imperfect](https://html5up.net/future-imperfect)
 

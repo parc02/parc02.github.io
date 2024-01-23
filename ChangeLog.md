@@ -28,3 +28,7 @@
 ### 0.4.4
 - [x] OG_URL, PIC
 
+
+### 0.5.0
+- [ ] firebase & deploy dev STG
+

@@ -1,5 +1,21 @@
 
-	h1{
-		color: gray;
-	}
+
+
+body{ font-family: 'Roboto', sans-serif;
+	font-size: larger;
+	font-weight: 900;
+	
+	
+}
+
+footer{
+	background-color: lightblue;
+	color: aliceblue;
+}
+
+
+.radius_img_1{
+	border-radius: 50%;
+}
+
 

@@ -1,97 +1,151 @@
 <!DOCTYPE html>
-<html lang ="ko">
-	<head>
-		<meta charest="utf-8">
-		<title>이력서</title>
-        <link rel="stylesheet" href="style.css" />
-	</head>
+<html lang="ko" dir="ltr">
 
-	<body>
-		<header>
-			<h1>이력서</h1>
-			<h2>박민성</h2>
-		</header>
+<head>
+	<meta charset="utf-8">
+	<title>RESUME</title>
 
-		<nav>
-			<ul>
-				<li><a href="#profile">프로필</a></li>
-				<li><a href="#education">학력</a></li>
-				<li><a href="experience">경력</a></li>
-				<li><a href="#skills">기술</a></li>
-			</ul>
-		</nav>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-		<article>
-			<section id ="profile">
-			<h2>프로필</h2>
-                <style>img{float:left;}</style>
-                <img src = "/images/image-2.jpeg" width=200>
-                <p>
-            
-                - 프로필 내용 1<br>- 프로필 내용 2
-                <br>- 프로필 내용 3<br>- 프로필 내용 4<br><br>
-                    <br><br>
-                
+
+	<link rel="stylesheet" href="style.css" />
+	<style>
+		div.row {
+			width: 100%;
+			display: flex;
+			border: 1px solid lightblue;
+		}
+
+		div.left {
+			width: 20%;
+			float: left;
+			box-sizing: border-box;
+			background: lightblue;
+			color: white;
+			font-style: normal;
+			text-align: center;
+			padding-top: 5%;
+		}
+
+		div.right {
+			width: 80%;
+			float: right;
+			box-sizing: border-box;
+			background: #ffffff;
+		}
+
+		.title {
+			text-indent: 5%;
+		}
+
+		.content {
+			text-indent: 5%;
+		}
+		
+	</style>
+</head>
+
+
+<body>
+	<div class="row">
+		<div class="left">
+			<style>
+				img {
+					border: 1px solid rgb(0, 13, 252);
+					border-radius: 100%;
+				}
+			</style>
+			<img src="/images/image-2.jpeg" width=200>
+
+			<h2>CONTACT</h2>
+			<p>
+				📧 pascalmin49@gmail.com<br>
+				GIT <a href="https://github.com/parc02">https://github.com/parc02</a>
 			</p>
-            
-			</section>
+			<br>
+			<br>
 
-			<section id = "education">
-				<h2>학력</h2>
-				<ul>
+			<h2>LANGUAGES</h2>
+			<p>
+				C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🔵🔵🔵<br>
+				JAVA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🔵🔵🔵<br>
+				JavaScript 🔵🔵🔵<br>
+			</p>
+		</div>
+
+
+		<div class="right">
+			<h1 align="center">박민성</h1>
+			<hr width="100">
+
+
+			<body>
+				<div>
+					<h2 class="title">SUMMARY</h2>
+				</div>
+
+				<div>
+					<h2 class="title">EXPERIENCE</h2>
+					<br>
+				</div>
+
+				<div class="content">
+					한화시스템 부트캠프(2023.10~2024.4)
+					</div>
+			
+				<div class="content">
+					백엔드, 프론트엔드 프로젝트 진행
+				</div>
+				</br>
+
+				<h2 class="title">PROJECTS</h2>
+				<div class="content">
+					<b>학부</b>
 					<li>
-						<h3>[서울과학기술대학교][컴퓨터공학과][학사][휴학중]</h3>
-						<p>
-						[학력 내용]
-						</p>
+						OPENGL을 이용한 그래픽 구현
 					</li>
-					</ul>
-			</section>
+				</div>
+				<br>
 
-			<section id ="experience">
-				<h2>경력</h2>
-				<ul>
+				<div class="content">
+					<b>HW BOOTCAMP</b>
 					<li>
-						<h3>[회사명][직책][근무기간][주요 업무]</h3>
-						<p>
-						[경력 내용]
-						</p>
+						MARIADB를 이용해 넷플릭스 ERD작성 및 DB설계
 					</li>
-				</ul>
-			</section>
+					<li>
+						SpringBoot, WebSocket을 이용한 채팅프로그램 구현
+					</li>
+				</div>
 
-			<section id = "skills">
-				<h2> 기술<h2>
-						<ul>
-							<li>
-								
-                                    <table border="1">
-                                        <h3>
-                                        <td>기술명</td>
-                                        <td>숙련도</td>
-                                    </h3>
-                                    <tr><!-- 첫번째 줄 시작 -->
-	    <td>첫번째 칸</td>
-	    <td>두번째 칸</td>
-	</tr><!-- 첫번째 줄 끝 -->
-	<tr><!-- 두번째 줄 시작 -->
-	    <td>첫번째 칸</td>
-	    <td>두번째 칸</td>
-	</tr><!-- 두번째 줄 끝 
-                                    </table>
-                                    
-							</li>
-						</ul>
-			</section>
+				<h2 class="title">EDUCATION</h2>
+				<div class="content">
 
-		</article>
+					<b>서울 과학 기술 대학교</b>2022.3~재학중(2024)
+				</div>
+				<br>
+				<div class="content">
+					<b>컴퓨터 공학과 전공</b>
+				</div>
+				<h2 class="title">CERTIFICATE</h2>
 
-		<footer>
-			<p>[사이트 주소] © [년도]</p>
-		</footer>
+				<div class="content">
+					<b>TOEIC 945</b>
+				</div>
+				<br>
+				<div class="content">
+					<b>OPIC AL</b>
+				</div>
+				<br>
+				<div class="content">
+					컴퓨터 활용 능력시험 1급
+				</div>
+			</body>
+		</div>
+	</div>
+</body>
 
-	</body>
+<footer>
+	<p>https://par-02.web.app © 2024</p>
+</footer>
+
 </html>
-
-				
-	

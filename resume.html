@@ -69,6 +69,45 @@
 
 		.radius_img_1 {
 			border-radius: 50%;
+		
+		}
+
+		.skill-list li {
+			display: flex;
+		}
+
+		.skill-list .subject {
+			flex: 0 0 auto;
+			width: 110px;
+		}
+
+		/* .skill-list .value {} */
+
+		.skill-list .item {
+			position: relative;
+			font-size: 0;
+			width: 1px;
+			height: 1px;
+			text-indent: -9999px;
+		}
+
+		.skill-list .item::after {
+			content: "";
+			display: inline-block;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			border: 1px solid #333;
+			background-color: #fff;
+		}
+
+		.skill-list .item.action::after {
+			background-color: #6495ed;
+			border-color: #6495ed;
+		}
+		.subject
+		{
+			text-align: left;
 		}
 	</style>
 </head>
@@ -95,11 +134,36 @@
 			<br>
 
 			<h2>⭐LANGUAGES</h2>
-			<p class="ect">
-				C &nbsp;&nbsp;&nbsp;🔵🔵<br>
-				JAVA &nbsp;&nbsp;&nbsp;🔵🔵<br>
-				JavaScript &nbsp;&nbsp;&nbsp;🔵🔵<br>
-			</p>
+			<ul class="skill-list">
+				<li>
+					<div class="subject">C</div>
+					<div class="value">
+						<span class="item action">1</span>
+						<span class="item action">2</span>
+						<span class="item action">3</span>
+						<span class="item">4</span>
+					</div>
+				</li>
+				<li>
+					<div class="subject">JAVA</div>
+					<div class="value">
+						<span class="item action">1</span>
+						<span class="item action">2</span>
+						<span class="item">3</span>
+						<span class="item">4</span>
+					</div>
+				</li>
+				<li>
+					<div class="subject">JAVASPRING</div>
+					<div class="value">
+						<span class="item action">1</span>
+						<span class="item action">2</span>
+						<span class="item action">3</span>
+						<span class="item">4</span>
+					</div>
+				</li>
+			</ul>
+
 		</div>
 
 
@@ -129,11 +193,13 @@
 				</div>
 
 				<div class="content">
+					<li>
 					한화시스템 부트캠프&emsp;&emsp;&emsp;&emsp;(2023.10~2024.4)
+				</li>
 				</div>
 
 				<div class="content">
-					백엔드, 프론트엔드 프로젝트 진행
+					 &emsp;  -백엔드, 프론트엔드 프로젝트 진행
 				</div>
 				</br>
 

@@ -36,3 +36,6 @@
 ### 0.6.0
 - [ ] study CSS
 
+### 0.6.1
+- [ ] deploy resume
+

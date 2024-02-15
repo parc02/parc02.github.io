@@ -47,3 +47,6 @@
 
 ### 240215.3
 - [ ] copy
+
+### 240215.4
+- [ ] install git in docker

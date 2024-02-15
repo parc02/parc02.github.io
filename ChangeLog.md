@@ -36,6 +36,14 @@
 - [x] study CSS
 
 ### 0.6.1
+
 - [x] deploy resume
 ### 0.7.0
 - [ ] deploy to fly.io
+
+- [ ] deploy resume
+
+### 240215.1
+- [ ] Dockerfile
+
+

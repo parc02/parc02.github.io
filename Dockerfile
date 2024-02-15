@@ -11,5 +11,6 @@ COPY blog-pull-cronjob /etc/cron.d
 
 RUN crontab /etc/cron.d/blog-pull-cronjob
 RUN crontab -l
+ENTRYPOINT ["bash", "-c", "service cron start"]
 
-CMD  service cron start && ["nginx", "-g", "daemon off;"] 
+CMD ["nginx", "-g", "daemon off;"] 

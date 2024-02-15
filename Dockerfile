@@ -12,4 +12,4 @@ COPY blog-pull-cronjob /etc/cron.d
 RUN crontab /etc/cron.d/blog-pull-cronjob
 RUN crontab -l
 
-CMD service cron start && nginx -g 'daemon off;'
+CMD service cron start; nginx -g 'daemon off;'

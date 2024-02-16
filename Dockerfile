@@ -9,10 +9,11 @@ COPY . /var/www/html/
 COPY pull.sh /var/www/html/
 COPY blog-pull-cronjob /etc/cron.d
 
+RUN chmod +x /var/www/html/start.sh
 RUN crontab /etc/cron.d/blog-pull-cronjob
 RUN crontab -l
 
-RUN chmod +x /var/www/html/start.sh
+
 
 CMD /var/www/html/start.sh;
 

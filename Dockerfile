@@ -5,7 +5,6 @@ RUN apt install -y nginx
 RUN apt install -y git
 RUN apt install cron
 
-COPY . /var/www/html/
 COPY pull.sh /var/www/html/
 COPY blog-pull-cronjob /etc/cron.d
 

@@ -14,8 +14,6 @@ COPY blog-pull-cronjob /etc/cron.d
 
 RUN crontab /etc/cron.d/blog-pull-cronjob
 RUN crontab -l
-RUN service cron start
+RUN chmod +x /var/www/html/start.sh
 
-CMD nginx -g 'daemon off;'
-
-
+CMD /var/www/html/start.sh;
